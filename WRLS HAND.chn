@@ -1,0 +1,31 @@
+# 16 "WRLS HAND" 0 %0011111100110100 1                                                                                       
+/config "WRLS 3" 53 YE
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 117
+/gate OFF GATE -80.0 60.0 1  502  983 0
+/gate/filter OFF 3.0 990.9
+/dyn ON COMP RMS LOG -37.0 2.5 2 7.50 7 7.96  276 POST 0
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LCut 188.8 -9.00 1.5
+/eq/2 PEQ 550.8 -9.25 1.6
+/eq/3 VEQ 1k66 -7.50 2.2
+/eq/4 HCut 5k20 -3.50 1.5
+/mix ON  +1.0 ON +0 OFF   -oo
+/mix/01 ON   -oo +0 EQ->
+/mix/02 ON   -oo
+/mix/03 ON   -oo +0 EQ->
+/mix/04 ON   -oo
+/mix/05 ON   -oo +0 EQ->
+/mix/06 ON   -oo
+/mix/07 OFF   -oo +0 GRP
+/mix/08 OFF   -oo
+/mix/09 OFF   -oo +0 GRP
+/mix/10 OFF   -oo
+/mix/11 OFF   -oo +0 GRP
+/mix/12 OFF   -oo
+/mix/13 ON   -oo +0 POST
+/mix/14 ON   -oo
+/mix/15 ON   -oo +0 POST
+/mix/16 ON   -oo
+/headamp/063 +27.5 OFF
