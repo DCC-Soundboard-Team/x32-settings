@@ -1,0 +1,31 @@
+# 13 "VOCAL-Comp & Eq" 0 %0011111000110100 1                                                                                   
+/config "AARON" 41 CY
+/delay OFF   0.3
+/preamp -9.0 OFF ON 24 101
+/gate OFF GATE -80.0 60.0 1  502  983 0
+/gate/filter OFF 3.0 990.9
+/dyn ON COMP PEAK LOG -21.0 4.0 3 0.00 1 12.6  40 POST 0
+/dyn/filter OFF 3.0 957.3
+/eq ON
+/eq/1 PEQ 240.5 -3.75 2.0
+/eq/2 PEQ 1k35 +0.25 2.0
+/eq/3 PEQ 3k43 +8.00 1.6
+/eq/4 PEQ 6k85 -4.50 3.9
+/mix ON  -2.2 ON +0 OFF   -oo
+/mix/01 ON  -3.8 +100 EQ->
+/mix/02 ON -17.5
+/mix/03 ON   -oo +100 EQ->
+/mix/04 ON   -oo
+/mix/05 ON   -oo +100 EQ->
+/mix/06 ON   -oo
+/mix/07 OFF   -oo +100 GRP
+/mix/08 OFF   -oo
+/mix/09 ON   -oo +100 POST
+/mix/10 OFF   -oo
+/mix/11 OFF   -oo +100 GRP
+/mix/12 OFF   -oo
+/mix/13 ON  +3.5 +100 POST
+/mix/14 ON   -oo
+/mix/15 ON  -1.3 +100 POST
+/mix/16 ON   -oo
+gain -12.0phantom OFF

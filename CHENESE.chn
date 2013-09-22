@@ -1,17 +1,17 @@
-# 15 "David LAV" 0 %0011111100110100 1                                                                                         
-/config "WRLS DAVID" 53 YE
+# 19 "CHENESE" 0 %0011111100110100 1                                                                                           
+/config "WRLS Chenese" 53 YE
 /delay OFF   0.3
-/preamp +0.0 OFF ON 24 117
+/preamp +0.0 OFF ON 24  98
 /gate OFF GATE -80.0 60.0 1  502  983 0
 /gate/filter OFF 3.0 990.9
-/dyn ON COMP RMS LOG -31.5 4.0 2 6.50 0 7.96  276 POST 0
+/dyn ON COMP RMS LOG -31.5 4.0 2 7.00 0 7.96  276 POST 0
 /dyn/filter OFF 3.0 990.9
 /eq ON
-/eq/1 LCut 148.3 -5.75 1.5
-/eq/2 PEQ 417.9 -14.0 1.2
-/eq/3 VEQ 1k91 -7.50 6.7
-/eq/4 HShv 4k85 -7.00 1.9
-/mix OFF  +4.9 ON +0 OFF   -oo
+/eq/1 LCut 101.4 -5.75 1.5
+/eq/2 PEQ 390.0 -5.25 0.8
+/eq/3 VEQ 1k49 -12.7 2.6
+/eq/4 HCut 3k68 -7.25 1.9
+/mix ON  +0.9 ON +0 OFF   -oo
 /mix/01 ON   -oo +0 EQ->
 /mix/02 ON   -oo
 /mix/03 ON   -oo +0 EQ->
@@ -28,4 +28,4 @@
 /mix/14 ON   -oo
 /mix/15 ON   -oo +0 POST
 /mix/16 ON   -oo
-/headamp/062 +36.5 OFF
+/headamp/062 +35.0 OFF
